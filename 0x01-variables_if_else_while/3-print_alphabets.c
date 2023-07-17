@@ -3,22 +3,21 @@
 #include <stdio.h>
 
 /**
- * main - Entry 
- *Action - Prints the alphabet.
+ * main - Displays the alphabet.
  * Return: Always 0 (Success)
  */
 
 int main(void)
-{	
 
-	char low;
-	for (low = 'a'; low <= 'z'; low++)
-	purchar(low);
+{
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	for (low 'A'; low <= 'z'; low++
-	purchar(low);
+	int i;
 
+	for (i = 0; i < 52; i++)
+	{
+		putchar(alp[i]);
+	}
 	putchar('\n');
 	return (0);
-}	
-
+}
