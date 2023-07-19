@@ -3,10 +3,11 @@
 /**
  * Show_last_digit - shows last digit of a number
  * @n: int to extract last digit from
- * Return:The  value of the last digit
+ * Return:The value of the last digit
  */
 
 int print_last_digit(int n)
+
 {
 	int a;
 
